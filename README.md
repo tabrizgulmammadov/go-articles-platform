@@ -1,0 +1,2 @@
+For creating migration -> migrate create -seq -ext sql -dir ./cmd/migrate/migrations create_users
+For updating database -> migrate -path=./cmd/migrate/migrations -database="postgres://postgres:admin@localhost:5432/social?sslmode=disable" up
